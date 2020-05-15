@@ -25,6 +25,7 @@ public class follow : MonoBehaviour
     //setting path parameters for the 'Enemy' and sending the 'Enemy' to the path starting point
     public void SetPath()
     {
+        Debug.Log("Setting Path");
         currentPathPercent = 0;
         pathPositions = new Vector3[path.Length];       //transform path points to vector3
         for (int i = 0; i < pathPositions.Length; i++)
